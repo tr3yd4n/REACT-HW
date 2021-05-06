@@ -1,3 +1,24 @@
 body {
   background-color: #212121 !important;
+  color: white !important;
 }
+
+
+  #reg-input {
+    border: 2px solid currentcolor;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  #reg-input:invalid {
+    border: 2px dashed red;
+  }
+  #reg-input:invalid:focus {
+    background-image: linear-gradient(pink, lightgreen);
+  }
+
+  #reg-button {
+    margin-left: 45%;
+    margin-right: 45%;
+    min-width: 10%;
+  }

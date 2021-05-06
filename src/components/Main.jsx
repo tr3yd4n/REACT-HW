@@ -19,7 +19,9 @@ export default class Main extends React.Component {
 
     render() {
 
-        console.log(this.state) //logs each time value of searchfield is changed
+        // console.log(this.state) //logs each time value of searchfield is changed
+        console.log(this.state.results)
+        console.log(this.state.results.data)
 
         return <Container>
             <Row>
@@ -41,13 +43,21 @@ export default class Main extends React.Component {
                 </Col>
                 {console.log("jelly beans")}
                 <Row>
-
-                    {/* {this.state.results.map(c => ...(
+                    <p>HERE ARE YOUR CARDS</p>
+                    {this.state.results.data.map(c => (
                         <Col xs={3}>
                             <div>HEllO</div>
                         </Col>
-                        ))
-                    } */}
+                    ))}
+
+
+
+
+
+
+
+                    {/* 
+                     */}
 
                     {/* {
 
