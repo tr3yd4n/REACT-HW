@@ -39,27 +39,31 @@ export default class Main extends React.Component {
                         />
                     </Form>
                 </Col>
-                {console.log(this.state.results)}
-                {/* {
+                {console.log("jelly beans")}
+                <Row>
 
-                    this.state.results.length > 0 ? this.state.results.map(card => {
-                        <p> Name - {card.data.name}</p>
-                    }) : null
-                */}
-
-                {/* {this.state.results.map(card =>
-                    <Col xs={3}>
-                        {results.name}
-                    </Col>)} */}
-                {/* {
-                    this.state.results.filter(c => c.title.toLowerCase().includes(this.state.query)).map(c => (
+                    {/* {this.state.results.map(c => ...(
                         <Col xs={3}>
-                            <SingleCard card={c} />
+                            <div>HEllO</div>
                         </Col>
-                    ))
-                } */}
+                        ))
+                    } */}
 
+                    {/* {
 
+                        this.state.results.length > 0 ? this.state.results.map(card => {
+                            <p> Name - {card.data.name}</p>
+                        }) : null
+                    */}
+
+                    {/* {this.state.results.map(card =>
+                        <Col xs={3}>
+                            {results.name}
+                        </Col>)} */}
+
+                    {/* array.map(function(currentValue, index, arr), thisValue) */}
+
+                </Row>
             </Row>
         </Container>
     }
